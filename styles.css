@@ -8,3 +8,54 @@
     --dark-blue: #143774; /* Title 3.375rem*/
 }
 
+html, body {
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--light-grey);
+
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    line-height: .5rem;
+}
+
+h1 {
+    font-family: 'Lora';
+    color: var(--dark-blue);
+    font-size: 3.375rem;
+    font-weight: 100;
+}
+
+p {
+    font-size: 1rem;
+    color: var(--light-blue);
+    letter-spacing: .4em;
+    font-weight: bold;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    list-style: none;
+    letter-spacing: .19em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-grey);
+}
