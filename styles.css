@@ -12,7 +12,7 @@ html, body {
     margin: 0 auto;
     font-size: 18px;
     font-family: 'Ubuntu', sans-serif;
-    background-color: var(--light-grey);
+    /* background-color: var(--light-grey); */
 
 }
 
@@ -21,6 +21,8 @@ html, body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: var(--light-grey);
+
 }
 
 .title {
@@ -28,13 +30,13 @@ html, body {
 }
 
 h1 {
-    font-family: 'Lora';
+    font-family: 'Lora', serif;
     color: var(--dark-blue);
     font-size: 3.375rem;
     font-weight: 100;
 }
 
-p {
+.subtitle {
     font-size: 1rem;
     color: var(--light-blue);
     letter-spacing: .4em;
@@ -42,20 +44,24 @@ p {
 
 }
 
-ul {
+nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     list-style: none;
     padding: 0;
 }
 
-li {
-    padding: 15px;
+nav li {
+    margin: 0 1em;
     list-style: none;
     letter-spacing: .19em;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: var(--dark-grey);
+}
+
+nav a:hover{
+
 }
