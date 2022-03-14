@@ -32,15 +32,15 @@ html, body {
 h1 {
     font-family: 'Lora', serif;
     color: var(--dark-blue);
-    font-size: 3.375rem;
-    font-weight: 100;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 .subtitle {
-    font-size: 1rem;
+    font-size: .75rem;
     color: var(--light-blue);
-    letter-spacing: .4em;
-    font-weight: bold;
+    letter-spacing: .2em;
+    /* font-weight: bold; */
 
 }
 
@@ -54,7 +54,7 @@ nav ul {
 nav li {
     margin: 0 1em;
     list-style: none;
-    letter-spacing: .19em;
+    letter-spacing: .1em;
 }
 
 nav a {
