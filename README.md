@@ -73,6 +73,6 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Zachary Boelter](https://zacharyboelter.netlify.app/)
+- LinkedIn - [@zachary-boelter](https://www.linkedin.com/in/zachary-boelter/)
+- Twitter - [@zapperdack](https://www.twitter.com/zapperdack)
