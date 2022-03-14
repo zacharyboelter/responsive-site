@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+
+:root{
+    --light-grey: #f8f8f8; /* Background */
+    --dark-grey: #707070; /* Navigation 1rem*/
+    --light-blue: #1792d2; /* Subtitle 1rem*/
+    --dark-blue: #143774; /* Title 3.375rem*/
+}
+
