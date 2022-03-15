@@ -16,11 +16,28 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
     /* background-color: var(--light-grey); */
 }
-header {
-    background-color: var(--light-grey);
-    padding: 2em 0;
+
+/* ~~~~~~~~~~~~~
+typography
+~~~~~~~~~~~~~ */
+h1 {
+    font-family: 'Lora', serif;
+    color: var(--dark-blue);
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
 }
 
+.subtitle {
+    font-size: .75rem;
+    color: var(--light-blue);
+    letter-spacing: .2em;
+    font-weight: 700;
+}
+
+/* ~~~~~~~~~~~~~
+layout
+~~~~~~~~~~~~~ */
 .container {
     width: 90%;
     max-width: 900px;
@@ -33,7 +50,12 @@ header {
     padding: 0;
 }
 
-.header-title {
+header {
+    background-color: var(--light-grey);
+    padding: 2em 0;
+}
+
+.site-title {
     /* display: flex;
     flex-direction: column;
     align-items: center; */
@@ -44,18 +66,8 @@ header {
     line-height: .5rem;
 }
 
-h1 {
-    font-family: 'Lora', serif;
-    color: var(--dark-blue);
-    font-size: 2rem;
-    font-weight: 400;
-}
-
-.subtitle {
-    font-size: .75rem;
-    color: var(--light-blue);
-    letter-spacing: .2em;
-    font-weight: 700;
+img {
+    width: 150px;
 }
 
 nav ul {
