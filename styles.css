@@ -3,7 +3,9 @@
 
 :root{
     --light-grey: #f8f8f8; /* Background */
+    --medium-grey: #EBEBEB; /* color for around images */
     --dark-grey: #707070; /* Navigation 1rem*/
+    --darkest-grey: #717171; /* Text maybe? */
     --light-blue: #1792d2; /* Subtitle 1rem*/
     --dark-blue: #143774; /* Title 3.375rem*/
 }
