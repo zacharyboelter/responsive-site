@@ -12,28 +12,80 @@
 
 html, body {
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+
     /* background-color: var(--light-grey); */
 }
 
 /* ~~~~~~~~~~~~~
-typography
+typography (always start with type)
 ~~~~~~~~~~~~~ */
-h1 {
+h1,
+h2,
+h3 {
     font-family: 'Lora', serif;
-    color: var(--dark-blue);
-    font-size: 2rem;
     font-weight: 400;
+    color: var(--dark-blue);
+}
+
+
+h1 {
+    font-size: 2rem;
     margin: 0;
 }
 
+a {
+    color: var(--light-blue);
+    font-weight: bolder;
+}
+
+a:hover,
+a:focus {
+    color: var(--dark-blue);
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* Logo subtitle */
 .subtitle {
     font-size: .75rem;
     color: var(--light-blue);
     letter-spacing: .2em;
     font-weight: 700;
 }
+
+.article-title {
+    font-size: 1.5rem;
+}
+
+.article-read-more,
+.article-info {
+    font-size: .875rem;
+}
+
+.article-read-more {
+    color: var(--light-blue);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.article-read-more:hover,
+.article-read-more:focus {
+    color: var(--dark-blue);
+    text-decoration: underline;
+    
+}
+
+
+
+
+
+
+
 
 /* ~~~~~~~~~~~~~
 layout
