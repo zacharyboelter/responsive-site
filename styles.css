@@ -22,6 +22,15 @@ img {
     display: block;
 }
 
+.image-full {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 16%;
+    margin: 0 0 2em 0;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
 /* ~~~~~~~~~~~~~
 typography (always start with type)
 ~~~~~~~~~~~~~ */
@@ -38,6 +47,10 @@ h3 {
 h1 {
     font-size: 2rem;
     margin: 0;
+}
+
+h3 {
+    color: var(--light-blue);
 }
 
 a {
@@ -325,6 +338,7 @@ articles
     font-size: 1rem;
     letter-spacing: .01em;
     line-height: 1.556em;
+    color: var(--dark-blue);
 }
 
 .widget-image {
@@ -338,12 +352,5 @@ articles
     padding-bottom: 0;
 }
 
-.image-full {
-    max-height: 400px;
-    width: 100%;
-    object-fit: cover;
-    object-position: 100% 16%;
-    margin: 0 0 2em 0;
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-}
+
 
