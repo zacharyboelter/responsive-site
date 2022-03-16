@@ -252,12 +252,26 @@ articles
         justify-content: space-between;
         
     }
-
     .article-recent-main {
         width: 65%;
         margin-bottom: 2em;
     }
     .article-recent-secondary {
         width: 30%;
+    }
+
+    .article-featured{
+        display: flex;
+        flex-direction: column;
+    }
+    .article-info{
+        order: -1;
+        text-align: right;
+    }
+    .article-image {
+        order: -2;
+    }
+    .article-title{
+        margin-top: -2.2em;
     }
 }
