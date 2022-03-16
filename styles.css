@@ -11,7 +11,7 @@
 }
 
 body {
-    margin: 0 auto;
+    margin: 0;
     font-size: 1.125rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
@@ -113,7 +113,16 @@ header {
     background-color: var(--light-grey);
     padding: 2em 0;
     text-align: center;
-    margin-bottom: 2.5em;
+    margin-bottom: 3em;
+}
+
+footer {
+    background: var(--dark-blue);
+    color: var(--medium-grey);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+    padding: 3em 0;
 }
 
 .site-title {
@@ -138,6 +147,8 @@ header {
     
     aside {
         width: 25%;
+        min-width: 200px;
+        margin-left: 1em;
     }
 }
 
@@ -254,7 +265,6 @@ articles
     }
     .article-recent-main {
         width: 65%;
-        margin-bottom: 2em;
     }
     .article-recent-secondary {
         width: 30%;
@@ -266,20 +276,13 @@ articles
     }
     .article-info{
         order: -1;
-        text-align: right;
     }
     .article-image {
         order: -2;
         object-fit: cover;
         width: 100%;
         min-height: 250px;
-
     }
-    .article-title{
-        margin-top: -2.2em;
-    }
-
-
 }
 
 /* Widgets */
@@ -293,7 +296,6 @@ articles
     color: var(--dark-blue);
     display: flex;
     flex-direction: column;
-    /* width: 240px; */
 }
 
 .widget-title {
@@ -330,9 +332,8 @@ articles
     margin-bottom: 1.250em;
 }
 
-
-.last-widget {
+.widget-recent-post:last-child {
     border: none;
-    margin-bottom: 1em;
+    margin-bottom: 0;
     padding-bottom: 0;
 }
