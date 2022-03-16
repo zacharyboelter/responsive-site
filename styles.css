@@ -344,6 +344,7 @@ articles
 .widget-image {
     order: 1;
     margin-bottom: 1.250em;
+    object-fit: cover;
 }
 
 .widget-recent-post:last-child {
